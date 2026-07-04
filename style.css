@@ -28,21 +28,14 @@ header{
     box-shadow:0 3px 10px rgba(0,0,0,.2);
 }
 
+/* Logo */
+
 .logo{
     display:flex;
     align-items:center;
     gap:15px;
     font-weight:700;
     color:#fff;
-}
-
-.logo span{
-    color:#3b82f6;
-}
-.logo{
-    display:flex;
-    align-items:center;
-    gap:15px;
 }
 
 .logo img{
@@ -56,6 +49,12 @@ header{
     margin:0;
     font-size:30px;
 }
+
+.logo span{
+    color:#3b82f6;
+}
+
+/* Hero */
 nav ul{
     display:flex;
     list-style:none;
@@ -264,6 +263,34 @@ footer{
 
 /* Responsive */
 
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav ul{
+    flex-direction:column;
+    margin-top:15px;
+}
+
+nav ul li{
+    margin:10px 0;
+}
+
+.hero-content h1{
+    font-size:40px;
+}
+
+.hero-content p{
+    font-size:18px;
+}
+
+.contact{
+    grid-template-columns:1fr;
+}
+
+}
 @media(max-width:768px){
 
 header{
