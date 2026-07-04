@@ -270,7 +270,16 @@ nav ul li{
 }
 
 .contact{
-    grid-template-columns:1fr;
+    grid-template-columns:.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
 }
 
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:12px;
+    object-fit:cover;
 }
+
