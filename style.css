@@ -310,31 +310,3 @@ nav ul li{
 }
 
 }
-@media(max-width:768px){
-
-header{
-    flex-direction:column;
-}
-
-nav ul{
-    flex-direction:column;
-    margin-top:15px;
-}
-
-nav ul li{
-    margin:10px 0;
-}
-
-.hero-content h1{
-    font-size:40px;
-}
-
-.hero-content p{
-    font-size:18px;
-}
-
-.contact{
-    grid-template-columns:1fr;
-}
-
-}
