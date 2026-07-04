@@ -34,20 +34,19 @@ header{
     display:flex;
     align-items:center;
     gap:15px;
-    font-weight:700;
-    color:#fff;
 }
 
 .logo img{
-    width:70px;
-    height:70px;
+    width:60px;
+    height:60px;
     object-fit:contain;
-    display:block;
 }
 
 .logo h1{
+    font-size:32px;
     margin:0;
-    font-size:30px;
+    font-weight:700;
+    color:#fff;
 }
 
 .logo span{
