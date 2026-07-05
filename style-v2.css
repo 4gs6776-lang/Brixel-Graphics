@@ -91,7 +91,9 @@ nav ul li a:hover{
     align-items:center;
     text-align:center;
     padding:180px 20px 80px;
-    background:#FFFFFF;
+    background:linear-gradient(135deg,#ffffff 0%,#fff8ef 50%,#ffffff 100%);
+    position:relative;
+    overflow:hidden;
 }
 .hero-content h4{
     color:#F97316;
@@ -115,7 +117,35 @@ nav ul li a:hover{
     max-width:750px;
     margin:30px auto;
 }
+.hero::before{
+    content:"";
+    position:absolute;
+    width:350px;
+    height:350px;
+    background:#C1121F;
+    opacity:.08;
+    border-radius:50%;
+    top:-120px;
+    left:-100px;
+    filter:blur(40px);
+}
 
+.hero::after{
+    content:"";
+    position:absolute;
+    width:300px;
+    height:300px;
+    background:#D4AF37;
+    opacity:.10;
+    border-radius:50%;
+    bottom:-100px;
+    right:-80px;
+    filter:blur(40px);
+}
+.hero-content{
+    position:relative;
+    z-index:2;
+}
 .buttons{
     margin-top:40px;
 }
