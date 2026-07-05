@@ -646,6 +646,9 @@ header{
 .why-grid{
     grid-template-columns:1fr;
 }
+.stats-grid{
+    grid-template-columns:1fr;
+}
 
 .logo img{
     width:50px;
