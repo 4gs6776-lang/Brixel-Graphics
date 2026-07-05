@@ -1,12 +1,14 @@
 const menuToggle = document.getElementById("menu-toggle");
 const navMenu = document.getElementById("nav-menu");
 
-menuToggle.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
+menuToggle.addEventListener("click", function () {
 
     if (navMenu.classList.contains("active")) {
-        menuToggle.innerHTML = "✕";
+        navMenu.classList.remove("active");
+        menuToggle.textContent = "☰";
     } else {
-        menuToggle.innerHTML = "☰";
+        navMenu.classList.add("active");
+        menuToggle.textContent = "✕";
     }
+
 });
