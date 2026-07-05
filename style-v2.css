@@ -612,6 +612,9 @@ footer{
 header{
     padding:0 5%;
 }
+.why-grid{
+    grid-template-columns:1fr;
+}
 
 .logo img{
     width:50px;
