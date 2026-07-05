@@ -271,21 +271,31 @@ Chat on WhatsApp
 
         </div>
 
-        <form class="contact-form">
+       <form action="https://formspree.io/f/xykqlvlw" method="POST">
 
-            <input type="text" placeholder="Your Name" required>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
 
-            <input type="email" placeholder="Your Email" required>
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" required>
 
-            <input type="text" placeholder="Subject">
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject">
 
-            <textarea placeholder="Your Message" rows="6"></textarea>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
 
-            <button type="submit" class="btn">
-                Send Message
-            </button>
+    <input
+        type="hidden"
+        name="_subject"
+        value="New Contact Form Submission"
+    >
 
-        </form>
+    <button type="submit" class="btn">
+        Send Message
+    </button>
+
+</form>
 
     </div>
 
