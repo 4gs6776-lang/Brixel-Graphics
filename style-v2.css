@@ -718,7 +718,7 @@ nav ul{
 #topBtn{
     display:none;
     position:fixed;
-    bottom:25px;
+    bottom:95px;
     right:25px;
     z-index:999;
     border:none;
