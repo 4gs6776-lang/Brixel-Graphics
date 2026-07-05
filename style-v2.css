@@ -152,6 +152,17 @@ nav ul li a:hover::after{
     position:relative;
     z-index:2;
 }
+.hero-badge{
+    display:inline-block;
+    background:#FFF7E6;
+    color:#C1121F;
+    padding:10px 20px;
+    border-radius:50px;
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:20px;
+    border:1px solid #F3D58A;
+}
 
 .hero-text h4{
     color:#F97316;
