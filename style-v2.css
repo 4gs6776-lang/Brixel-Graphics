@@ -241,30 +241,32 @@ nav ul li a:hover::after{
 
 .stats{
     padding:80px 8%;
-    background:#FFFFFF;
+    background:transparent;
 }
 
 .stats-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
     gap:40px;
-    text-align:center;
+    align-items:center;
 }
 
 .stat-box{
+    text-align:center;
     padding:20px;
 }
 
 .stat-box h2{
-    font-size:58px;
+    font-size:60px;
     color:#C1121F;
     font-weight:700;
     margin-bottom:10px;
 }
 
 .stat-box p{
-    color:#6B7280;
     font-size:18px;
+    color:#6B7280;
+    margin:0;
 }
 /* ===========================
    PORTFOLIO
@@ -604,32 +606,7 @@ footer{
     color:#6B7280;
     line-height:1.8;
 }
-/* ===========================
-   STATS
-=========================== */
 
-.stats{
-    padding:100px 8%;
-    background:#FFFFFF;
-}
-
-.stats-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:40px;
-    text-align:center;
-}
-
-.stat-box h2{
-    font-size:60px;
-    color:#C1121F;
-    margin-bottom:10px;
-}
-
-.stat-box p{
-    font-size:18px;
-    color:#6B7280;
-}
 .btn,
 .btn2{
     padding:16px 36px;
