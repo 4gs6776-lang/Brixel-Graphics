@@ -577,34 +577,27 @@ footer{
    STATS
 =========================== */
 
-.stat-box{
-    color:#fff;
-    padding:40px 20px;
-    background:rgba(255,255,255,.08);
-    border-radius:20px;
+.stats{
+    padding:100px 8%;
+    background:#FFFFFF;
 }
 
 .stats-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:30px;
+    gap:40px;
     text-align:center;
-}
-
-.stat-box{
-    color:#fff;
 }
 
 .stat-box h2{
     font-size:60px;
-    font-weight:700;
-    color:#D4AF37;
-    margin-bottom:15px;
+    color:#C1121F;
+    margin-bottom:10px;
 }
 
 .stat-box p{
     font-size:18px;
-    letter-spacing:1px;
+    color:#6B7280;
 }
 .btn,
 .btn2{
