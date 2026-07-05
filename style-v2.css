@@ -236,6 +236,37 @@ nav ul li a:hover::after{
     justify-content:center;
 }
 /* ===========================
+   STATISTICS
+=========================== */
+
+.stats{
+    padding:80px 8%;
+    background:#FFFFFF;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+    gap:40px;
+    text-align:center;
+}
+
+.stat-box{
+    padding:20px;
+}
+
+.stat-box h2{
+    font-size:58px;
+    color:#C1121F;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    color:#6B7280;
+    font-size:18px;
+}
+/* ===========================
    PORTFOLIO
 =========================== */
 
