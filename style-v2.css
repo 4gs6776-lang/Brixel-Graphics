@@ -418,7 +418,32 @@ footer{
 .footer-links a:hover{
     color:#F97316;
 }
+/* ===========================
+   WHATSAPP BUTTON
+=========================== */
 
+.whatsapp-float{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    transition:.3s;
+    z-index:999;
+}
+
+.whatsapp-float:hover{
+    transform:scale(1.1);
+}
 .copyright{
     margin-top:30px;
     font-size:15px;
