@@ -660,10 +660,12 @@ nav ul{
     color:#6B7280;
     line-height:1.8;
 }
+
+}  /* <-- Add this line */
+
 /* ===========================
    LIGHTBOX
 =========================== */
-
 .lightbox{
     display:none;
     position:fixed;
