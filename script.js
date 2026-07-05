@@ -17,10 +17,21 @@ menuToggle.addEventListener("click", function () {
 // ===========================
 
 function openImage(imageSrc){
-    document.getElementById("lightbox").style.display = "flex";
-    document.getElementById("lightbox-img").src = imageSrc;
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+
+    lightbox.style.display = "flex";
+    lightboxImg.src = imageSrc;
 }
 
 function closeImage(){
     document.getElementById("lightbox").style.display = "none";
 }
+// Close when clicking outside the image
+document.getElementById("lightbox").addEventListener("click", function(e){
+
+    if(e.target.id === "lightbox"){
+        closeImage();
+    }
+
+});
