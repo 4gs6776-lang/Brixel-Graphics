@@ -524,6 +524,9 @@ nav.active{
 .hero-image img{
     max-width:320px;
 }
+.contact-container{
+    grid-template-columns:1fr;
+}
 nav ul{
     display:flex;
     flex-direction:column;
