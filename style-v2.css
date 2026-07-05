@@ -573,6 +573,37 @@ footer{
     color:#6B7280;
     line-height:1.8;
 }
+/* ===========================
+   STATS
+=========================== */
+
+.stats{
+    padding:90px 8%;
+    background:#C1121F;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    text-align:center;
+}
+
+.stat-box{
+    color:#fff;
+}
+
+.stat-box h2{
+    font-size:58px;
+    font-weight:700;
+    color:#D4AF37;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    font-size:18px;
+    letter-spacing:1px;
+}
 .btn,
 .btn2{
     padding:16px 36px;
