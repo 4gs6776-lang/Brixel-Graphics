@@ -234,7 +234,60 @@ nav ul li a:hover::after{
     margin-top:20px;
     flex-wrap:wrap;
 }
+/* ===========================
+   SERVICES
+=========================== */
 
+.services{
+    padding:100px 8%;
+    background:#FFFFFF;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:42px;
+    color:#1F2937;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#6B7280;
+    font-size:18px;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:#FFFFFF;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    border-bottom:5px solid #C1121F;
+}
+
+.service-card h3{
+    color:#C1121F;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.service-card p{
+    color:#6B7280;
+    line-height:1.8;
+}
 .btn,
 .btn2{
     padding:16px 36px;
