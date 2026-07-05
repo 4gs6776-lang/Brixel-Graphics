@@ -697,4 +697,18 @@ nav ul{
 .portfolio-card img{
     cursor:pointer;
 }
+/* ===========================
+   SCROLL ANIMATIONS
+=========================== */
+
+.fade-up{
+    opacity:0;
+    transform:translateY(50px);
+    transition:all .8s ease;
+}
+
+.fade-up.show{
+    opacity:1;
+    transform:translateY(0);
+}
 
