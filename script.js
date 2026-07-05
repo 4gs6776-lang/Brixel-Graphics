@@ -69,3 +69,14 @@ window.addEventListener("scroll", function () {
     }
 
 });
+// ===========================
+// PRELOADER
+// ===========================
+
+window.addEventListener("load", function () {
+
+    setTimeout(function () {
+        document.getElementById("preloader").classList.add("hide");
+    }, 1000);
+
+});
