@@ -418,6 +418,22 @@ footer{
 .footer-links a:hover{
     color:#F97316;
 }
+.footer-contact{
+    margin:30px 0;
+}
+
+.footer-contact p{
+    margin:12px 0;
+}
+
+.footer-contact a{
+    color:#D4AF37;
+    text-decoration:none;
+}
+
+.footer-contact a:hover{
+    color:#F97316;
+}
 /* ===========================
    WHATSAPP BUTTON
 =========================== */
