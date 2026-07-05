@@ -1,1 +1,178 @@
+/* ===========================
+   BRIXELEDGE V2
+=========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0D0D0D;
+    color:#FFFFFF;
+    line-height:1.7;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(13,13,13,.95);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid rgba(212,175,55,.2);
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:65px;
+    height:65px;
+    object-fit:contain;
+}
+
+.logo h1{
+    font-size:32px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#D4AF37;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+nav ul li a{
+    color:#FFFFFF;
+    text-decoration:none;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#D4AF37;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 20px 80px;
+}
+
+.hero-content h4{
+    color:#F97316;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.hero-content h1{
+    font-size:70px;
+    max-width:900px;
+    margin:auto;
+    line-height:1.2;
+}
+
+.hero-content h1 span{
+    color:#D4AF37;
+}
+
+.hero-content p{
+    color:#D1D5DB;
+    font-size:20px;
+    max-width:750px;
+    margin:30px auto;
+}
+
+.buttons{
+    margin-top:40px;
+}
+
+.btn,
+.btn2{
+    display:inline-block;
+    padding:15px 40px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+    margin:10px;
+}
+
+.btn{
+    background:#C1121F;
+    color:white;
+}
+
+.btn:hover{
+    background:#F97316;
+}
+
+.btn2{
+    border:2px solid #D4AF37;
+    color:#D4AF37;
+}
+
+.btn2:hover{
+    background:#D4AF37;
+    color:#111;
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    padding:20px;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.hero-content h1{
+    font-size:42px;
+}
+
+.hero-content p{
+    font-size:18px;
+}
+
+.logo img{
+    width:55px;
+    height:55px;
+}
+
+}
