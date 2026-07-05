@@ -80,3 +80,46 @@ window.addEventListener("load", function () {
     }, 1000);
 
 });
+// ===========================
+// ANIMATED COUNTERS
+// ===========================
+
+const counters = document.querySelectorAll(".counter");
+
+const counterObserver = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if(entry.isIntersecting){
+
+            const counter = entry.target;
+            const target = +counter.getAttribute("data-target");
+            let count = 0;
+
+            const updateCounter = () => {
+
+                const increment = Math.ceil(target / 100);
+
+                if(count < target){
+                    count += increment;
+                    counter.innerText = count;
+                    setTimeout(updateCounter, 20);
+                }else{
+                    counter.innerText = target + "+";
+                }
+
+            };
+
+            updateCounter();
+
+            counterObserver.unobserve(counter);
+
+        }
+
+    });
+
+});
+
+counters.forEach(counter => {
+    counterObserver.observe(counter);
+});
