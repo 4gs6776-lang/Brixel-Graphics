@@ -177,29 +177,6 @@ nav ul li a:hover{
     color:#1F2937;
 }
 
-/* ===========================
-   MOBILE
-=========================== */
-
-.menu-toggle{
-    display:none;
-    background:none;
-    border:none;
-    font-size:30px;
-    color:#C1121F;
-    cursor:pointer;
-}
-
-@media (max-width:768px){
-
-    header{
-        padding:15px 5%;
-    }
-
-    .menu-toggle{
-        display:block;
-    }
-
     nav{
         display:none;
         position:absolute;
@@ -237,25 +214,6 @@ nav ul li a:hover{
         font-size:18px;
     }
 }
-
-/* ===========================
-   HAMBURGER MENU
-=========================== */
-
-.menu-toggle{
-    display:none;
-    background:none;
-    border:none;
-    font-size:32px;
-    cursor:pointer;
-    color:#C1121F;
-}
-
-@media (max-width:768px){
-
-    .menu-toggle{
-        display:block;
-    }
 
     nav{
         display:none;
