@@ -642,4 +642,22 @@ nav ul{
     color:#6B7280;
     line-height:1.8;
 }
+.service-card{
+    border:1px solid #eee;
+}
+
+.service-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.service-card h3{
+    margin:20px 0 15px;
+    color:#C1121F;
+}
+
+.service-card p{
+    color:#6B7280;
+    line-height:1.8;
+}
 }
