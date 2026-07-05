@@ -14,6 +14,7 @@ body{
     background:#FFFFFF;
     color:#1F2937;
     line-height:1.7;
+    padding-top:90px;
 }
 
 /* ===========================
@@ -25,7 +26,8 @@ header{
     top:0;
     left:0;
     width:100%;
-    padding:18px 8%;
+    height:90px;
+    padding:0 8%;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -85,10 +87,9 @@ nav ul li a:hover{
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:120px 20px 80px;
+    padding:180px 20px 80px;
     background:#FFFFFF;
 }
-
 .hero-content h4{
     color:#F97316;
     letter-spacing:3px;
