@@ -326,14 +326,17 @@ nav ul li a:hover::after{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
     gap:30px;
+    align-items:start;
 }
 
 .portfolio-card{
-    background:#FFFFFF;
+    background:#fff;
     border-radius:18px;
     overflow:hidden;
     box-shadow:0 12px 30px rgba(0,0,0,.08);
     transition:.35s;
+    display:flex;
+    flex-direction:column;
 }
 
 .portfolio-card:hover{
@@ -344,6 +347,7 @@ nav ul li a:hover::after{
     width:100%;
     height:260px;
     object-fit:cover;
+    display:block;
 }
 
 .portfolio-info{
@@ -358,6 +362,11 @@ nav ul li a:hover::after{
 
 .portfolio-info p{
     color:#6B7280;
+}
+.portfolio-info{
+    padding:20px;
+    background:#fff;
+    flex:1;
 }
 /* ===========================
    TESTIMONIALS
