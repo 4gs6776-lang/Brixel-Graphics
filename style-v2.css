@@ -368,15 +368,10 @@ nav ul li a:hover::after{
     font-size:16px;
 }
 
-.portfolio-info p{
-    color:#6B7280;
-}
 .portfolio-info{
     padding:20px;
     background:#fff;
     flex:1;
-}
-.portfolio-info{
     position:relative;
 }
 
