@@ -218,6 +218,7 @@ nav ul li a:hover::after{
     height:auto;
     border-radius:20px;
     box-shadow:0 20px 40px rgba(0,0,0,.12);
+    animation:float 4s ease-in-out infinite;
 }
 .hero-image img{
     animation:float 4s ease-in-out infinite;
