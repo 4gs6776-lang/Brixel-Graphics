@@ -1,9 +1,9 @@
 {
-  "name": "Brixel Edge",
-  "short_name": "Brixel Edge",
-  "start_url": "/Brixel-Graphics/index.html",
+  "name": "BrixelEdge",
+  "short_name": "BrixelEdge",
+  "start_url": "/Brixel-Graphics/index-v2.html",
   "display": "standalone",
-  "background_color": "#1e2327",
+  "background_color": "#ffffff",
   "theme_color": "#1e2327",
   "icons": [
     {
