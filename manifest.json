@@ -1,0 +1,20 @@
+{
+  "name": "Brixel Edge",
+  "short_name": "Brixel Edge",
+  "start_url": "/Brixel-Graphics/index.html",
+  "display": "standalone",
+  "background_color": "#1e2327",
+  "theme_color": "#1e2327",
+  "icons": [
+    {
+      "src": "images/logo.png.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo.png.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
