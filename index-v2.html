@@ -24,6 +24,16 @@
     navigator.serviceWorker.register('sw.js');
   }
 </script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "6a49ff8b-60e1-4ef4-a1ca-2015dae2c203",
+    });
+  });
+</script>
+
 
 </head>
 
